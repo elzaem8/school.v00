@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(243, 233, 233); /* خلفية الصفحة الرئيسية */
+  color: rgb(20, 9, 9); /* لون النص إلى الأبيض */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background: rgb(243, 237, 237); /* خلفية الهيدر */
+  color: rgb(17, 8, 8); /* لون النص */
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: rgb(20, 13, 13); /* لون الروابط إلى الأبيض */
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.teacher {
+  margin-bottom: 20px;
+  color: rgb(19, 10, 10); /* لون النص */
+}
+
+.highlight {
+  background-color: rgb(255, 245, 245); /* خلفية الجملة */
+  color: rgb(14, 6, 6); /* لون النص */
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: rgb(255, 253, 253); /* خلفية الفوتر */
+  margin-top: 20px;
+  color: rgb(17, 6, 6); /* لون النص */
+}
+
+/* تغيير لون الأرقام إلى الأحمر */
+span.number {
+  color: rgb(61, 10, 245); /* لون الأرقام */
+}
